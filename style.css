@@ -267,7 +267,8 @@ border-radius:20px;
     margin-bottom: 13px;
     transition: all 0.5s ease 0s;}*/
     .hero-color{
-      background: #4da758 url(images/dbgf2kl-ec16766a-bb26-4d02-9733-63f682ad4e08.gif) scroll  center center no-repeat;
+      background:  scroll  center center no-repeat;
+      background-image: linear-gradient(rgba(144, 140, 140, 0.5), rgb(25, 25, 25)), url("images/tumblr_p0qywig8Nk1uluhv2o1_500.gif");
       position: absolute;
       z-index: -2;
       top: 15px;
@@ -331,10 +332,21 @@ border-radius:20px;
       width:100%;
       box-shadow: 0 0 40px rgba(35,37,41,.1);
     }
+    .mt0{
+      padding: 0px 0px;
+    }
     .mr{
       margin-top: 135px;
       margin-bottom: 100px;
       text-align: center;
+    }
+    .mr0{
+      margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    }
+    #mr0{
+      margin-top: 65px;
     }
 .mt2 img{
   width: 100%;
@@ -670,7 +682,7 @@ textarea{
   text-align: center;
 }
 .mt6{
-    background-color: #5ba26f;
+    background-color: gray;
 }
 .mt6 p{
   font-weight: 600;
